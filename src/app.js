@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => { 
 	res.render('help', {
-		message: 'Hellp Help page!',
+		message: "You don't need any help to find weather in this simple application",
 		title: 'Help',
 		name:'SDLive'
 	});
